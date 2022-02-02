@@ -1,0 +1,91 @@
+html body{
+    margin: 0;
+    background: white;
+}
+
+header{
+    background: blue;
+}
+
+.caixa{
+    width: 980px;
+    margin: 0 auto;
+    position:relative ;
+    
+}
+
+.logo-loja{
+    width: 300px;
+    margin: 0;
+    
+}
+
+nav {
+    top: 100px;
+    right: 0;
+    position:absolute
+}
+
+.lista{
+    
+    font-size: 22px;
+    text-transform: uppercase; 
+   display: inline;
+   top: 150px;
+   margin:0 0 0 15px;
+   font-weight: bold;
+ 
+}
+
+
+nav a{
+    text-decoration: none;
+    color: yellow;
+}
+
+nav :hover{
+    color: tomato;
+   
+}
+
+.caixa-secundaria{
+
+    background: rgb(122, 220, 253);
+    padding: 20px;
+}
+
+h2{
+    color: yellow;   
+}
+h3{
+    margin-left: 350px ;
+    color: yellow;
+}
+
+ .caixa-geral{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     margin: 50px;
+ }
+ 
+
+.bia{
+    width:100%;
+    height: 100%;  
+}
+
+footer{
+    background: rgb(11, 11, 206);
+    padding: 0px; 
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%; 
+}
+#imagem-rodape{
+    margin: auto;
+    display: block;
+    width:250px ;   
+}
+
+
+
