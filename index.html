@@ -3,11 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nosso-ceu</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Noto+Serif & display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -88,7 +93,11 @@
                 voluptatem nisi, ipsa in. Suscipit ex, maiores nobis consequatur cum ipsa nam cupiditate maxime culpa
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis qui dicta quis facere nihil
                 voluptatem nisi, ipsa in. Suscipit ex, maiores nobis consequatur cum ipsa nam cupiditate maxime culpa
-
+                voluptatem nisi, ipsa in. Suscipit ex, maiores nobis consequatur cum ipsa nam cupiditate maxime culpa
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis qui dicta quis facere nihil
+                voluptatem nisi, ipsa in. Suscipit ex, maiores nobis consequatur cum ipsa nam cupiditate maxime culpa
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis qui dicta quis facere nihil
+                voluptatem nisi, ipsa in. Suscipit ex, maiores nobis consequatur cum ipsa nam cupiditate maxime culpa
         </div>
 
     </section>
@@ -102,20 +111,20 @@
         <div class="quadros-religiosos">
 
             <div class="borda">
-                <img class="vendas" src="/img/foto2.jpeg" alt="">
-                <p>santo</p>
+                <img class="vendas" src="/img/quadro.jpeg" alt="">
+                <p>cruz</p>
                 <p>R$100,00</p>
             </div>
 
             <div class="borda">
                 <img class="vendas" src="/img/foto2.jpeg" alt="">
-                <p>santo</p>
+                <p>familia sagrada</p>
                 <p>R$100,00</p>
             </div>
 
             <div class="borda">
                 <img class="vendas" src="/img/foto2.jpeg" alt="">
-                <p>santo</p>
+                <p>familia sagrada</p>
                 <p>R$100,00</p>
             </div>
 
@@ -132,20 +141,20 @@
 
             <div class="borda">
                 <img class="vendas" src="/img/quadro5.jpeg" alt="">
-                <p>nome do produto</p>
-                <p>preço</p>
+                <p>Leao</p>
+                <p>R$60,00</p>
             </div>
 
             <div class="borda">
-                <img class="vendas" src="/img/quadro5.jpeg" alt="">
-                <p>nome do produto</p>
-                <p>preco</p>
+                <img class="vendas" src="/img/quadro3.jpeg" alt="">
+                <p>Unicornio</p>
+                <p>R$60,00</p>
             </div>
 
             <div class="borda">
-                <img class="vendas" src="/img/quadro5.jpeg" alt="">
-                <p>nome do produto</p>
-                <p>preco</p>
+                <img class="vendas" src="/img/quadro2.jpeg" alt="">
+                <p>minnie</p>
+                <p>R$70,00</p>
             </div>
 
         </div>
@@ -161,20 +170,20 @@
 
             <div class="borda">
                 <img class="vendas" src="/img/foto3.jpeg" alt="">
-                <p>nome do produto</p>
-                <p>preco</p>
+                <p>homer simpson</p>
+                <p>R$80,00</p>
             </div>
 
             <div class="borda">
-                <img class="vendas" src="/img/foto3.jpeg" alt="">
-                <p>nome do produto</p>
-                <p>preco</p>
+                <img class="vendas" src="/img/foto4.jpeg" alt="">
+                <p>Morty</p>
+                <p>60,00</p>
             </div>
 
             <div class="borda">
-                <img class="vendas" src="/img/foto3.jpeg" alt="">
-                <p>nome do produto</p>
-                <p>preco</p>
+                <img class="vendas" src="/img/foto1.jpeg" alt="">
+                <p>Rick</p>
+                <p>60,00</p>
             </div>
 
         </div>
@@ -186,22 +195,35 @@
             <h3>Contato</h3>
         </div>
 
-        <div class="caixa-contato">
-
-            <p>Faça o seu pedido</p>
-
-            <form>
+        <h4>Faça o seu pedido</h4>
+        <form>
+            <div class="caixa-contato">
                 <label for="nome">Nome<input id="nome" type="text" required placeholder="Nome"
                         class="formulario"></label>
+
                 <label for="email">Email<input id="email" type="email" required placeholder="contato@gmail.com"
                         class="formulario"></label>
-                <label for="numero">Celular<input id="numero" type="tel" required placeholder="Numero"
+
+                <label for="numero">Celular<input id="numero" type="tel" required placeholder="(XX)XXXXX-XXXX"
                         class="formulario"></label>
-                <label for="obs">Observaçao<textarea name="" id="obs" cols="30" rows="10" placeholder="Observaçao:"></textarea></label>
 
+                <label for="num">Dimensao do quadro<input id="num" type="text" required placeholder="exemplo: 30X30"
+                        class="formulario"></label>
 
-            </form>
-        </div>
+                <label for="cor">Cor do quadro<input id="cor" type="color" required class="cor"></label>
+                <input type="file">
+            </div>
+
+            <div class="caixa-obs">
+
+                <label class="" for="obs"><textarea name="" id="obs" cols="30" rows="10" placeholder="Observaçao:"
+                        class="obs"></textarea></label>
+            </div>
+
+            <input type="submit" class="botao">
+
+        </form>
+
     </section>
 
     <footer>
